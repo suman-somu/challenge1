@@ -1,0 +1,98 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+    text-align: center;
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    height:30em;
+    width: 18em;
+    border-radius: 13px;
+    margin-left: 39%;
+    margin-top: 5em;
+}
+
+.section1-image {
+    width: 87%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.section1-writings {
+    font-weight: 300;
+    margin-left: 0px;
+    text-align: left;
+    padding-left: 20px;
+} 
+
+.section1 .section2 {
+    width: match-parent;
+}
+
+.sec1-paragraph {
+    color: hsl(215, 51%, 70%);
+}
+.para-writings1{
+    color: hsl(178, 100%, 50%);
+}
+.para-writings2 {
+    color:  hsl(215, 51%, 70%);
+}
+
+
+.left-col {
+    float: left;
+    width: 50%;
+}
+.right-col {
+    float: left;
+    width: 50%;
+}
+
+.left-col-2 {
+    float: left;
+    width: 50%;
+    font-size:0.8em;
+    margin-left: -60px;
+    color: hsl(178, 100%, 50%);
+}
+.left-col-1 {
+    float: left;
+    width: 50%;
+}
+
+.right-col-1 {
+    float: left;
+    width: 30%;
+}
+.right-col-1-img{
+    margin-left: 1.2em;
+}
+.right-col-2 {
+    float: left;
+    width: 70%;
+    /* margin-left: -30px; */
+    margin-right: 0px;
+}
+
+
+.section2-image {
+    width: 10%;
+    border: 2px solid white;
+    border-radius: 50%;
+    /* display: flex; */
+    text-align: left;
+}
+
+.section2-image {
+    float: left;
+    width: 20%;
+}
+.section2-writings {
+    float: left;
+    width: 80%;
+}
