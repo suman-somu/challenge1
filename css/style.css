@@ -104,14 +104,16 @@ body {
 }
 .section2-writings {
     float: left;
-    width: 80%;
+    width: 70%;
+}
+.section2-image{
+    padding-left: 20px;
 }
 
-.section2-image {
-    width: 10%;
+.section2-image1 {
+    width: 50%;
     border-radius: 50%;
-    /* border:2px solid white; */
-    padding-top: 17px;
+    border:2px solid white;
 }
 .sec2-writings-l {
     color: hsl(215, 51%, 70%);
