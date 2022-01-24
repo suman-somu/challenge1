@@ -9,17 +9,20 @@ body {
     font-family: 'Outfit', sans-serif;
     font-weight: 300;
     font-size: 18px;
-    height:30em;
+    height:32em;
     width: 18em;
     border-radius: 13px;
     margin-left: 39%;
     margin-top: 5em;
 }
+.section1{
+    margin-bottom: 60px;
+}
 
 .section1-image {
     width: 87%;
     margin-top: 20px;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 
 .section1-writings {
@@ -52,8 +55,13 @@ body {
     float: left;
     width: 50%;
 }
+.right-col{
+    padding-right: 0px;
+    text-align: right;
+}
 
 .left-col-2 {
+    font-weight:400;
     float: left;
     width: 50%;
     font-size:0.8em;
@@ -70,23 +78,25 @@ body {
     width: 30%;
 }
 .right-col-1-img{
-    margin-left: 1.2em;
+    margin-left: 35px;
 }
 .right-col-2 {
+    font-size: 15px;
     float: left;
     width: 70%;
-    /* margin-left: -30px; */
-    margin-right: 0px;
+    margin-left: -25px;
+    /* margin-right: 0px; */
+    
 }
 
 
-.section2-image {
+/* .section2-image {
     width: 10%;
     border: 2px solid white;
     border-radius: 50%;
-    /* display: flex; */
+    display: flex;
     text-align: left;
-}
+} */
 
 .section2-image {
     float: left;
@@ -95,4 +105,17 @@ body {
 .section2-writings {
     float: left;
     width: 80%;
+}
+
+.section2-image {
+    width: 10%;
+    border-radius: 50%;
+    /* border:2px solid white; */
+    padding-top: 17px;
+}
+.sec2-writings-l {
+    color: hsl(215, 51%, 70%);
+}
+.sec2-writings-r {
+    color: hsl(0, 0%, 100%);
 }
