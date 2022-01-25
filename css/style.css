@@ -14,6 +14,7 @@ body {
     border-radius: 13px;
     margin-left: 39%;
     margin-top: 5em;
+    
 }
 .section1{
     margin-bottom: 60px;
@@ -125,4 +126,16 @@ body {
 }
 .sec2-writings-l{
     margin-left: -50px;
+}
+
+h3:hover{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.sec2-writings-r:hover{
+    cursor: pointer;
+    color:hsl(178, 100%, 50%);
+}
+.section1-image:hover{
+    
 }
